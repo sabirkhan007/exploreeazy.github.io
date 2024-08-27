@@ -1614,4 +1614,48 @@
     height: auto;
   }
 
+
+
   
+.video-section {
+    position: relative;
+    padding: 176px 0px 186px 0px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.centred {
+    text-align: center;
+}
+
+.auto-container {
+    position: static;
+    max-width: 1200px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+
+.video-section .inner-box h2 {
+    text-shadow: 2px 2px 2px black;
+    position: relative;
+    display: block;
+    font-size: 50px;
+    line-height: 60px;
+    font-family: 'Playfair Display', serif;
+    color: #ffffff;
+    font-weight: 900;
+    margin-bottom: 23px;
+}
+
+.video-section .inner-box p {
+    text-shadow: 2px 2px 2px black;
+    display: block;
+    font-size: 21px;
+    line-height: 38px;
+    color: #ffffff;
+    font-weight: 200;
+    margin-bottom: 32px;
+}
