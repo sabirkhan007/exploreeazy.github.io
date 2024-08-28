@@ -1559,7 +1559,20 @@
     box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 }
 
+.pack-box:hover
 
+{
+  
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    
+    box-shadow: rgba(62, 55, 55, 0.703) 0px 20px 25px -5px, rgba(59, 56, 56, 0.151) 0px 10px 10px -5px;
+
+}
+
+ 
 
 
 /* package butn  */
@@ -1610,7 +1623,7 @@
 }
 
 .img1 {
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
   }
 
