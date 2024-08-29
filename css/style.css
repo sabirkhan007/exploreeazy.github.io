@@ -1628,7 +1628,15 @@
     height: auto;
   }
 
-
+  @media only screen and (max-width: 800px) {
+    .img1  {
+        max-width: 90%;
+        height: auto;
+    }
+    .ite-det{
+        margin-left: -25px;
+    }
+}
 
   
 .video-section {
@@ -1673,3 +1681,8 @@
     font-weight: 200;
     margin-bottom: 32px;
 }
+
+.ite-det{
+    margin-left: -25px;
+}
+
