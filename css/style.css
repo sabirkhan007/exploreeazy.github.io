@@ -1475,6 +1475,43 @@
     background-attachment: fixed;
     padding: 150px 0 50px 0;
 }
+
+
+/* starttt */
+.bg-breadcrumb {
+    background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/breadcrumb-bg.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 150px 0 50px 0;
+    position: relative;
+}
+
+.banner-content {
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.bg-breadcrumb .breadcrumb-item a {
+    color: var(--bs-secondary) !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+    .bg-breadcrumb {
+        padding: 100px 0 30px 0; /* Adjust padding for smaller screens */
+    }
+
+    .banner-content h3 {
+        font-size: 2.5rem; /* Adjust font size for mobile */
+    }
+    
+    .breadcrumb {
+        font-size: 0.9rem; /* Adjust breadcrumb font size for mobile */
+    }
+}
+
+/* enddd */
+
     
     .bg-breadcrumb-auli-chopta-ex-haridwar {
         background: linear-gradient(rgba(19, 53, 123, 0.5), rgba(19, 53, 123, 0.5)), url(../img/chopta-1.jpg);
@@ -1487,256 +1524,903 @@
     }
 
     .bg-breadcrumb-badrinath-ex-haridwar {
-        background: linear-gradient(rgba(19, 53, 123, 0.5), rgba(19, 53, 123, 0.5)), url(../img/badrinath-2.jpg);
-    
-        background-position: center center;
-        background-repeat: no-repeat;
+        background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/about-us-bannaer.jpg') no-repeat center center;
         background-size: cover;
-        background-attachment: fixed;
         padding: 150px 0 50px 0;
+        position: relative;
     }
+    
+    .banner-content {
+        position: relative;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    
+    .bg-breadcrumb .breadcrumb-item a {
+        color: var(--bs-secondary) !important;
+    }
+    
+    /* Responsive adjustments */
+    @media (max-width: 767px) {
+        .bg-breadcrumb {
+            padding: 100px 0 30px 0; /* Adjust padding for smaller screens */
+        }
+    
+        .banner-content h3 {
+            font-size: 2.5rem; /* Adjust font size for mobile */
+        }
+        
+        .breadcrumb {
+            font-size: 0.9rem; /* Adjust breadcrumb font size for mobile */
+        }
+    }
+
+    /* endd */
 
     .bg-breadcrumb-chardham-yatra-ex-haridwar{
-        background: linear-gradient(rgba(19, 53, 123, 0.5), rgba(19, 53, 123, 0.5)), url(../img/trek-chardham-exdelhi.jpg);
-    
-        background-position: center center;
-        background-repeat: no-repeat;
+        background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/about-us-bannaer.jpg') no-repeat center center;
         background-size: cover;
-        background-attachment: fixed;
         padding: 150px 0 50px 0;
+        position: relative;
     }
+    
+    .banner-content {
+        position: relative;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    
+    .bg-breadcrumb .breadcrumb-item a {
+        color: var(--bs-secondary) !important;
+    }
+    
+    /* Responsive adjustments */
+    @media (max-width: 767px) {
+        .bg-breadcrumb {
+            padding: 100px 0 30px 0; /* Adjust padding for smaller screens */
+        }
+    
+        .banner-content h3 {
+            font-size: 2.5rem; /* Adjust font size for mobile */
+        }
+        
+        .breadcrumb {
+            font-size: 0.9rem; /* Adjust breadcrumb font size for mobile */
+        }
+    }
+
+    /* endd */
+
 
     .bg-breadcrumb-chardham-yatra-ex-delhi{
-        background: linear-gradient(rgba(19, 53, 123, 0.5), rgba(19, 53, 123, 0.5)), url(../img/trek-chardham-exharidwar.jpg);
-    
-        background-position: center center;
-        background-repeat: no-repeat;
+     background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/about-us-bannaer.jpg') no-repeat center center;
         background-size: cover;
-        background-attachment: fixed;
         padding: 150px 0 50px 0;
+        position: relative;
     }
+    
+    .banner-content {
+        position: relative;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    
+    .bg-breadcrumb .breadcrumb-item a {
+        color: var(--bs-secondary) !important;
+    }
+    
+    /* Responsive adjustments */
+    @media (max-width: 767px) {
+        .bg-breadcrumb {
+            padding: 100px 0 30px 0; /* Adjust padding for smaller screens */
+        }
+    
+        .banner-content h3 {
+            font-size: 2.5rem; /* Adjust font size for mobile */
+        }
+        
+        .breadcrumb {
+            font-size: 0.9rem; /* Adjust breadcrumb font size for mobile */
+        }
+    }
+
+    /* endd */
+
+
 
     .bg-breadcrumb-dodham-yatra-ex-delhi{
-        background: linear-gradient(rgba(19, 53, 123, 0.5), rgba(19, 53, 123, 0.5)), url(../img/trek-dodham-exdelhi.jpg);
-    
-        background-position: center center;
-        background-repeat: no-repeat;
+      background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/about-us-bannaer.jpg') no-repeat center center;
         background-size: cover;
-        background-attachment: fixed;
         padding: 150px 0 50px 0;
+        position: relative;
     }
+    
+    .banner-content {
+        position: relative;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    
+    .bg-breadcrumb .breadcrumb-item a {
+        color: var(--bs-secondary) !important;
+    }
+    
+    /* Responsive adjustments */
+    @media (max-width: 767px) {
+        .bg-breadcrumb {
+            padding: 100px 0 30px 0; /* Adjust padding for smaller screens */
+        }
+    
+        .banner-content h3 {
+            font-size: 2.5rem; /* Adjust font size for mobile */
+        }
+        
+        .breadcrumb {
+            font-size: 0.9rem; /* Adjust breadcrumb font size for mobile */
+        }
+    }
+
+    /* endd */
+
+
 
     .bg-breadcrumb-gangotri-yamnotri-ex-haridwar{
-        background: linear-gradient(rgba(19, 53, 123, 0.5), rgba(19, 53, 123, 0.5)), url(../img/trek-gangotri-yamnotri.jpg);
-    
-        background-position: center center;
-        background-repeat: no-repeat;
+      background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/about-us-bannaer.jpg') no-repeat center center;
         background-size: cover;
-        background-attachment: fixed;
         padding: 150px 0 50px 0;
+        position: relative;
+    }
+    
+    .banner-content {
+        position: relative;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    
+    .bg-breadcrumb .breadcrumb-item a {
+        color: var(--bs-secondary) !important;
+    }
+    
+    /* Responsive adjustments */
+    @media (max-width: 767px) {
+        .bg-breadcrumb {
+            padding: 100px 0 30px 0; /* Adjust padding for smaller screens */
+        }
+    
+        .banner-content h3 {
+            font-size: 2.5rem; /* Adjust font size for mobile */
+        }
+        
+        .breadcrumb {
+            font-size: 0.9rem; /* Adjust breadcrumb font size for mobile */
+        }
     }
 
+    /* endd */
+
+
+
     .bg-breadcrumb-golden-triangle{
-        background: linear-gradient(rgba(19, 53, 123, 0.5), rgba(19, 53, 123, 0.5)), url(../img/gangotri-1.jpg);
-    
-        background-position: center center;
-        background-repeat: no-repeat;
+     background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/about-us-bannaer.jpg') no-repeat center center;
         background-size: cover;
-        background-attachment: fixed;
         padding: 150px 0 50px 0;
+        position: relative;
     }
+    
+    .banner-content {
+        position: relative;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    
+    .bg-breadcrumb .breadcrumb-item a {
+        color: var(--bs-secondary) !important;
+    }
+    
+    /* Responsive adjustments */
+    @media (max-width: 767px) {
+        .bg-breadcrumb {
+            padding: 100px 0 30px 0; /* Adjust padding for smaller screens */
+        }
+    
+        .banner-content h3 {
+            font-size: 2.5rem; /* Adjust font size for mobile */
+        }
+        
+        .breadcrumb {
+            font-size: 0.9rem; /* Adjust breadcrumb font size for mobile */
+        }
+    }
+
+    /* endd */
 
 
 
 .bg-breadcrumb-haridwar-rishikesh-mussoorie{
-    background: linear-gradient(rgba(19, 53, 123, 0.5), rgba(19, 53, 123, 0.5)), url(../img/rishikesh-1.jpg);
+    background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/about-us-bannaer.jpg') no-repeat center center;
+        background-size: cover;
+        padding: 150px 0 50px 0;
+        position: relative;
+    }
+    
+    .banner-content {
+        position: relative;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    
+    .bg-breadcrumb .breadcrumb-item a {
+        color: var(--bs-secondary) !important;
+    }
+    
+    /* Responsive adjustments */
+    @media (max-width: 767px) {
+        .bg-breadcrumb {
+            padding: 100px 0 30px 0; /* Adjust padding for smaller screens */
+        }
+    
+        .banner-content h3 {
+            font-size: 2.5rem; /* Adjust font size for mobile */
+        }
+        
+        .breadcrumb {
+            font-size: 0.9rem; /* Adjust breadcrumb font size for mobile */
+        }
+    }
 
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    padding: 150px 0 50px 0;
-}
+    /* endd */
+
+
 
 .bg-breadcrumb-hemkund-sahib{
-    background: linear-gradient(rgba(19, 53, 123, 0.5), rgba(19, 53, 123, 0.5)), url(../img/hemkund-1.jpg);
+   background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/about-us-bannaer.jpg') no-repeat center center;
+        background-size: cover;
+        padding: 150px 0 50px 0;
+        position: relative;
+    }
+    
+    .banner-content {
+        position: relative;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    
+    .bg-breadcrumb .breadcrumb-item a {
+        color: var(--bs-secondary) !important;
+    }
+    
+    /* Responsive adjustments */
+    @media (max-width: 767px) {
+        .bg-breadcrumb {
+            padding: 100px 0 30px 0; /* Adjust padding for smaller screens */
+        }
+    
+        .banner-content h3 {
+            font-size: 2.5rem; /* Adjust font size for mobile */
+        }
+        
+        .breadcrumb {
+            font-size: 0.9rem; /* Adjust breadcrumb font size for mobile */
+        }
+    }
 
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    padding: 150px 0 50px 0;
-}
+    /* endd */
+
+
 
 .bg-breadcrumb-kedar-badri-ex-haridwar{
-    background: linear-gradient(rgba(19, 53, 123, 0.5), rgba(19, 53, 123, 0.5)), url(../img/trek-kedarbadri.jpg);
+    background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/about-us-bannaer.jpg') no-repeat center center;
+        background-size: cover;
+        padding: 150px 0 50px 0;
+        position: relative;
+    }
+    
+    .banner-content {
+        position: relative;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    
+    .bg-breadcrumb .breadcrumb-item a {
+        color: var(--bs-secondary) !important;
+    }
+    
+    /* Responsive adjustments */
+    @media (max-width: 767px) {
+        .bg-breadcrumb {
+            padding: 100px 0 30px 0; /* Adjust padding for smaller screens */
+        }
+    
+        .banner-content h3 {
+            font-size: 2.5rem; /* Adjust font size for mobile */
+        }
+        
+        .breadcrumb {
+            font-size: 0.9rem; /* Adjust breadcrumb font size for mobile */
+        }
+    }
 
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    padding: 150px 0 50px 0;
-}
+    /* endd */
+
 
 .bg-breadcrumb-kedarkantha-ex-dehradun{
-    background: linear-gradient(rgba(19, 53, 123, 0.5), rgba(19, 53, 123, 0.5)), url(../img/kedarkantha-summit.jpg);
+     background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/about-us-bannaer.jpg') no-repeat center center;
+        background-size: cover;
+        padding: 150px 0 50px 0;
+        position: relative;
+    }
+    
+    .banner-content {
+        position: relative;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    
+    .bg-breadcrumb .breadcrumb-item a {
+        color: var(--bs-secondary) !important;
+    }
+    
+    /* Responsive adjustments */
+    @media (max-width: 767px) {
+        .bg-breadcrumb {
+            padding: 100px 0 30px 0; /* Adjust padding for smaller screens */
+        }
+    
+        .banner-content h3 {
+            font-size: 2.5rem; /* Adjust font size for mobile */
+        }
+        
+        .breadcrumb {
+            font-size: 0.9rem; /* Adjust breadcrumb font size for mobile */
+        }
+    }
 
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    padding: 150px 0 50px 0;
-}
+    /* endd */
+
 
 .bg-breadcrumb-kedarkantha-ex-sankri{
-    background: linear-gradient(rgba(19, 53, 123, 0.5), rgba(19, 53, 123, 0.5)), url(../img/kedarkantha-trek.jpg);
+   background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/about-us-bannaer.jpg') no-repeat center center;
+        background-size: cover;
+        padding: 150px 0 50px 0;
+        position: relative;
+    }
+    
+    .banner-content {
+        position: relative;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    
+    .bg-breadcrumb .breadcrumb-item a {
+        color: var(--bs-secondary) !important;
+    }
+    
+    /* Responsive adjustments */
+    @media (max-width: 767px) {
+        .bg-breadcrumb {
+            padding: 100px 0 30px 0; /* Adjust padding for smaller screens */
+        }
+    
+        .banner-content h3 {
+            font-size: 2.5rem; /* Adjust font size for mobile */
+        }
+        
+        .breadcrumb {
+            font-size: 0.9rem; /* Adjust breadcrumb font size for mobile */
+        }
+    }
 
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    padding: 150px 0 50px 0;
-}
+    /* endd */
 
 .bg-breadcrumb-kedarnath-ex-haridwar{
-    background: linear-gradient(rgba(19, 53, 123, 0.5), rgba(19, 53, 123, 0.5)), url(../img/kedarnath-2.jpg);
-
-    background-position: center center;
-    background-repeat: no-repeat;
+    background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/about-us-bannaer.jpg') no-repeat center center;
     background-size: cover;
-    background-attachment: fixed;
     padding: 150px 0 50px 0;
+    position: relative;
 }
+
+.banner-content {
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.bg-breadcrumb .breadcrumb-item a {
+    color: var(--bs-secondary) !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+    .bg-breadcrumb {
+        padding: 100px 0 30px 0; /* Adjust padding for smaller screens */
+    }
+
+    .banner-content h3 {
+        font-size: 2.5rem; /* Adjust font size for mobile */
+    }
+    
+    .breadcrumb {
+        font-size: 0.9rem; /* Adjust breadcrumb font size for mobile */
+    }
+}
+
+/* endd */
 
 .bg-breadcrumb-mathura-vrindavan{
-    background: linear-gradient(rgba(19, 53, 123, 0.5), rgba(19, 53, 123, 0.5)), url(../img/trek-mathuravrindavan.jpg);
-
-    background-position: center center;
-    background-repeat: no-repeat;
+    background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/about-us-bannaer.jpg') no-repeat center center;
     background-size: cover;
-    background-attachment: fixed;
     padding: 150px 0 50px 0;
+    position: relative;
 }
+
+.banner-content {
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.bg-breadcrumb .breadcrumb-item a {
+    color: var(--bs-secondary) !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+    .bg-breadcrumb {
+        padding: 100px 0 30px 0; /* Adjust padding for smaller screens */
+    }
+
+    .banner-content h3 {
+        font-size: 2.5rem; /* Adjust font size for mobile */
+    }
+    
+    .breadcrumb {
+        font-size: 0.9rem; /* Adjust breadcrumb font size for mobile */
+    }
+}
+
+/* endd */
 
 .bg-breadcrumb-mussoorie-dhanaulti-chakrata{
-    background: linear-gradient(rgba(19, 53, 123, 0.5), rgba(19, 53, 123, 0.5)), url(../img/terk-mussoorie.jpg);
-
-    background-position: center center;
-    background-repeat: no-repeat;
+    background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/about-us-bannaer.jpg') no-repeat center center;
     background-size: cover;
-    background-attachment: fixed;
     padding: 150px 0 50px 0;
+    position: relative;
 }
+
+.banner-content {
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.bg-breadcrumb .breadcrumb-item a {
+    color: var(--bs-secondary) !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+    .bg-breadcrumb {
+        padding: 100px 0 30px 0; /* Adjust padding for smaller screens */
+    }
+
+    .banner-content h3 {
+        font-size: 2.5rem; /* Adjust font size for mobile */
+    }
+    
+    .breadcrumb {
+        font-size: 0.9rem; /* Adjust breadcrumb font size for mobile */
+    }
+}
+
+/* endd */
 
 .bg-breadcrumb-mussoorie-ex-haridwar{
-    background: linear-gradient(rgba(19, 53, 123, 0.5), rgba(19, 53, 123, 0.5)), url(../img/Mussoorie.jpg);
+    background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/about-us-bannaer.jpg') no-repeat center center;
+        background-size: cover;
+        padding: 150px 0 50px 0;
+        position: relative;
+    }
+    
+    .banner-content {
+        position: relative;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    
+    .bg-breadcrumb .breadcrumb-item a {
+        color: var(--bs-secondary) !important;
+    }
+    
+    /* Responsive adjustments */
+    @media (max-width: 767px) {
+        .bg-breadcrumb {
+            padding: 100px 0 30px 0; /* Adjust padding for smaller screens */
+        }
+    
+        .banner-content h3 {
+            font-size: 2.5rem; /* Adjust font size for mobile */
+        }
+        
+        .breadcrumb {
+            font-size: 0.9rem; /* Adjust breadcrumb font size for mobile */
+        }
+    }
 
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    padding: 150px 0 50px 0;
-}
+    /* endd */
 
 .bg-breadcrumb-nainital-jimcorbett-ex-rishikesh{
-    background: linear-gradient(rgba(19, 53, 123, 0.5), rgba(19, 53, 123, 0.5)), url(../img/nainital-2.jpg);
+    background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/about-us-bannaer.jpg') no-repeat center center;
+        background-size: cover;
+        padding: 150px 0 50px 0;
+        position: relative;
+    }
+    
+    .banner-content {
+        position: relative;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    
+    .bg-breadcrumb .breadcrumb-item a {
+        color: var(--bs-secondary) !important;
+    }
+    
+    /* Responsive adjustments */
+    @media (max-width: 767px) {
+        .bg-breadcrumb {
+            padding: 100px 0 30px 0; /* Adjust padding for smaller screens */
+        }
+    
+        .banner-content h3 {
+            font-size: 2.5rem; /* Adjust font size for mobile */
+        }
+        
+        .breadcrumb {
+            font-size: 0.9rem; /* Adjust breadcrumb font size for mobile */
+        }
+    }
 
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    padding: 150px 0 50px 0;
-}
+    /* endd */
 
 .bg-breadcrumb-teen-dham-ex-delhi{
-    background: linear-gradient(rgba(19, 53, 123, 0.5), rgba(19, 53, 123, 0.5)), url(../img/nainital-2.jpg);
+    background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/about-us-bannaer.jpg') no-repeat center center;
+        background-size: cover;
+        padding: 150px 0 50px 0;
+        position: relative;
+    }
+    
+    .banner-content {
+        position: relative;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    
+    .bg-breadcrumb .breadcrumb-item a {
+        color: var(--bs-secondary) !important;
+    }
+    
+    /* Responsive adjustments */
+    @media (max-width: 767px) {
+        .bg-breadcrumb {
+            padding: 100px 0 30px 0; /* Adjust padding for smaller screens */
+        }
+    
+        .banner-content h3 {
+            font-size: 2.5rem; /* Adjust font size for mobile */
+        }
+        
+        .breadcrumb {
+            font-size: 0.9rem; /* Adjust breadcrumb font size for mobile */
+        }
+    }
 
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    padding: 150px 0 50px 0;
-}
-
+    /* endd */
 .bg-breadcrumb-teen-dham-ex-haridwar{
-    background: linear-gradient(rgba(19, 53, 123, 0.5), rgba(19, 53, 123, 0.5)), url(../img/nainital-2.jpg);
+    background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/about-us-bannaer.jpg') no-repeat center center;
+        background-size: cover;
+        padding: 150px 0 50px 0;
+        position: relative;
+    }
+    
+    .banner-content {
+        position: relative;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    
+    .bg-breadcrumb .breadcrumb-item a {
+        color: var(--bs-secondary) !important;
+    }
+    
+    /* Responsive adjustments */
+    @media (max-width: 767px) {
+        .bg-breadcrumb {
+            padding: 100px 0 30px 0; /* Adjust padding for smaller screens */
+        }
+    
+        .banner-content h3 {
+            font-size: 2.5rem; /* Adjust font size for mobile */
+        }
+        
+        .breadcrumb {
+            font-size: 0.9rem; /* Adjust breadcrumb font size for mobile */
+        }
+    }
 
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    padding: 150px 0 50px 0;
-}
+    /* endd */
 
 .bg-breadcrumb-valley-of-flowers{
-    background: linear-gradient(rgba(19, 53, 123, 0.5), rgba(19, 53, 123, 0.5)), url(../img/valley-of-flowers.jpg);
+    background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/about-us-bannaer.jpg') no-repeat center center;
+        background-size: cover;
+        padding: 150px 0 50px 0;
+        position: relative;
+    }
+    
+    .banner-content {
+        position: relative;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    
+    .bg-breadcrumb .breadcrumb-item a {
+        color: var(--bs-secondary) !important;
+    }
+    
+    /* Responsive adjustments */
+    @media (max-width: 767px) {
+        .bg-breadcrumb {
+            padding: 100px 0 30px 0; /* Adjust padding for smaller screens */
+        }
+    
+        .banner-content h3 {
+            font-size: 2.5rem; /* Adjust font size for mobile */
+        }
+        
+        .breadcrumb {
+            font-size: 0.9rem; /* Adjust breadcrumb font size for mobile */
+        }
+    }
 
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    padding: 150px 0 50px 0;
-}
+    /* endd */
 
 .bg-breadcrumb-varanasi-ayodhya{
-    background: linear-gradient(rgba(19, 53, 123, 0.5), rgba(19, 53, 123, 0.5)), url(../img/trek-varanasi-ayodhya.jpg);
-
-    background-position: center center;
-    background-repeat: no-repeat;
+    background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/about-us-bannaer.jpg') no-repeat center center;
     background-size: cover;
-    background-attachment: fixed;
     padding: 150px 0 50px 0;
+    position: relative;
 }
 
+.banner-content {
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.bg-breadcrumb .breadcrumb-item a {
+    color: var(--bs-secondary) !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+    .bg-breadcrumb {
+        padding: 100px 0 30px 0; /* Adjust padding for smaller screens */
+    }
+
+    .banner-content h3 {
+        font-size: 2.5rem; /* Adjust font size for mobile */
+    }
+    
+    .breadcrumb {
+        font-size: 0.9rem; /* Adjust breadcrumb font size for mobile */
+    }
+}
+
+/* endd */
 .bg-breadcrumb-about-us{
-    background: linear-gradient(rgba(19, 53, 123, 0.5), rgba(19, 53, 123, 0.5)), url(../img/kedarnath-2.jpg);
-
-    background-position: center center;
-    background-repeat: no-repeat;
+    background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/about-us-bannaer.jpg') no-repeat center center;
     background-size: cover;
-    background-attachment: fixed;
     padding: 150px 0 50px 0;
+    position: relative;
 }
+
+.banner-content {
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.bg-breadcrumb .breadcrumb-item a {
+    color: var(--bs-secondary) !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+    .bg-breadcrumb {
+        padding: 100px 0 30px 0; /* Adjust padding for smaller screens */
+    }
+
+    .banner-content h3 {
+        font-size: 2.5rem; /* Adjust font size for mobile */
+    }
+    
+    .breadcrumb {
+        font-size: 0.9rem; /* Adjust breadcrumb font size for mobile */
+    }
+}
+
+/* endd */
 
 .bg-breadcrumb-services{
-    background: linear-gradient(rgba(19, 53, 123, 0.5), rgba(19, 53, 123, 0.5)), url(../img/kedarkantha-summit.jpg);
-
-    background-position: center center;
-    background-repeat: no-repeat;
+    background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/about-us-bannaer.jpg') no-repeat center center;
     background-size: cover;
-    background-attachment: fixed;
     padding: 150px 0 50px 0;
+    position: relative;
 }
+
+.banner-content {
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.bg-breadcrumb .breadcrumb-item a {
+    color: var(--bs-secondary) !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+    .bg-breadcrumb {
+        padding: 100px 0 30px 0; /* Adjust padding for smaller screens */
+    }
+
+    .banner-content h3 {
+        font-size: 2.5rem; /* Adjust font size for mobile */
+    }
+    
+    .breadcrumb {
+        font-size: 0.9rem; /* Adjust breadcrumb font size for mobile */
+    }
+}
+
+/* end  */
 
 .bg-breadcrumb-packages{
-    background: linear-gradient(rgba(19, 53, 123, 0.5), rgba(19, 53, 123, 0.5)), url(../img/kedarkantha-summit.jpg);
-
-    background-position: center center;
-    background-repeat: no-repeat;
+    background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/about-us-bannaer.jpg') no-repeat center center;
     background-size: cover;
-    background-attachment: fixed;
     padding: 150px 0 50px 0;
+    position: relative;
 }
+
+.banner-content {
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.bg-breadcrumb .breadcrumb-item a {
+    color: var(--bs-secondary) !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+    .bg-breadcrumb {
+        padding: 100px 0 30px 0; /* Adjust padding for smaller screens */
+    }
+
+    .banner-content h3 {
+        font-size: 2.5rem; /* Adjust font size for mobile */
+    }
+    
+    .breadcrumb {
+        font-size: 0.9rem; /* Adjust breadcrumb font size for mobile */
+    }
+}
+
+/* enddd */
 
 .bg-breadcrumb-contact-us{
-    background: linear-gradient(rgba(19, 53, 123, 0.5), rgba(19, 53, 123, 0.5)), url(../img/kedarkantha-summit.jpg);
-
-    background-position: center center;
-    background-repeat: no-repeat;
+    background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/breadcrumb-bg.jpg') no-repeat center center;
     background-size: cover;
-    background-attachment: fixed;
     padding: 150px 0 50px 0;
+    position: relative;
 }
+
+.banner-content {
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.bg-breadcrumb .breadcrumb-item a {
+    color: var(--bs-secondary) !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+    .bg-breadcrumb {
+        padding: 100px 0 30px 0; /* Adjust padding for smaller screens */
+    }
+
+    .banner-content h3 {
+        font-size: 2.5rem; /* Adjust font size for mobile */
+    }
+    
+    .breadcrumb {
+        font-size: 0.9rem; /* Adjust breadcrumb font size for mobile */
+    }
+}
+
+
+/* endd */
+
+.bg-breadcrumb-advant{
+
+
+    background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/breadcrumb-bg.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 150px 0 50px 0;
+    position: relative;
+}
+
+.banner-content {
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.bg-breadcrumb .breadcrumb-item a {
+    color: var(--bs-secondary) !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+    .bg-breadcrumb {
+        padding: 100px 0 30px 0; /* Adjust padding for smaller screens */
+    }
+
+    .banner-content h3 {
+        font-size: 2.5rem; /* Adjust font size for mobile */
+    }
+    
+    .breadcrumb {
+        font-size: 0.9rem; /* Adjust breadcrumb font size for mobile */
+    }
+}
+
 
 .bg-breadcrumb-blog{
-    background: linear-gradient(rgba(19, 53, 123, 0.5), rgba(19, 53, 123, 0.5)), url(../img/kedarkantha-summit.jpg);
-
-    background-position: center center;
-    background-repeat: no-repeat;
+    background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/about-us-bannaer.jpg') no-repeat center center;
     background-size: cover;
-    background-attachment: fixed;
     padding: 150px 0 50px 0;
+    position: relative;
 }
+
+.banner-content {
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.bg-breadcrumb .breadcrumb-item a {
+    color: var(--bs-secondary) !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+    .bg-breadcrumb {
+        padding: 100px 0 30px 0; /* Adjust padding for smaller screens */
+    }
+
+    .banner-content h3 {
+        font-size: 2.5rem; /* Adjust font size for mobile */
+    }
+    
+    .breadcrumb {
+        font-size: 0.9rem; /* Adjust breadcrumb font size for mobile */
+    }
+}
+
+/* endd */
 
 .bg-breadcrumb-adventure{
     background: linear-gradient(rgba(19, 53, 123, 0.5), rgba(19, 53, 123, 0.5)), url(../img/breadcrumb-adventure.jpg);
