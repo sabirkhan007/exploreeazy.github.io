@@ -1526,9 +1526,9 @@
     }
 
     .bg-breadcrumb-badrinath-ex-haridwar {
-        background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/about-us-bannaer.jpg') no-repeat center center;
+        background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/badrinath-banner.PNG') no-repeat center center;
         background-size: cover;
-        padding: 150px 0 50px 0;
+        padding: 300px 0 50px 0;
         position: relative;
     }
     
@@ -1562,7 +1562,7 @@
     .bg-breadcrumb-chardham-yatra-ex-haridwar{
         background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/char-dham-yatra-ex-haridwar.png') no-repeat center center;
         background-size: cover;
-        padding: 150px 0 50px 0;
+        padding: 320px 0 50px 0;
         position: relative;
     }
     
@@ -1624,9 +1624,9 @@
     
 
     .bg-breadcrumb-dodham-yatra-ex-delhi{
-      background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/about-us-bannaer.jpg') no-repeat center center;
+      background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/do-dham-yatra.PNG') no-repeat center center;
         background-size: cover;
-        padding: 150px 0 50px 0;
+        padding: 300px 0 50px 0;
         position: relative;
     }
     
@@ -1657,7 +1657,53 @@
 
     /* endd  new 14-09 */
 
+/* auli chopta  */
 
+ 
+
+ .bg-breadcrumb-auli-chopta {
+    background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/auli-chopta.png') no-repeat center center;
+    background-size: cover;
+    background-position: center top; /* Ensure the focus is on the center */
+    padding: 120px 0 200px 0;
+    position: relative;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+    .bg-breadcrumb-auli-chopta {
+         background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/auli-chopta.png') no-repeat center center;
+        background-size: cover;
+        background-position: center top; /* Ensure the image is centered on mobile */
+        padding: 5px 0 50px 0; /* Adjust padding for mobile */
+    }
+
+    .banner-content h3 {
+        font-size: 2rem; /* Slightly smaller for mobile */
+    }
+
+    .breadcrumb {
+        font-size: 0.85rem; /* Smaller font for breadcrumbs on mobile */
+    }
+}
+
+ 
+/* Responsive adjustments */
+@media (max-width: 767px) {
+    .bg-breadcrumb {
+        padding: 5px 0 5px 0; /* Adjust padding for mobile */
+    }
+
+    .banner-content h3 {
+        font-size: 2.5rem; /* Adjust font size for mobile */
+    }
+    
+    .breadcrumb {
+        font-size: 0.9rem; /* Adjust breadcrumb font size for mobile */
+    }
+}
+
+/* auli chopta end  */
 
     .bg-breadcrumb-gangotri-yamnotri-ex-haridwar{
       background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/about-us-bannaer.jpg') no-repeat center center;
@@ -2188,9 +2234,9 @@
     /* endd */
 
 .bg-breadcrumb-varanasi-ayodhya{
-    background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/about-us-bannaer.jpg') no-repeat center center;
+    background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/varanasi-ayodhya.PNG') no-repeat center center;
     background-size: cover;
-    padding: 150px 0 50px 0;
+    padding: 300px 0 50px 0;
     position: relative;
 }
 
@@ -2206,7 +2252,7 @@
 
 /* Responsive adjustments */
 @media (max-width: 767px) {
-    .bg-breadcrumb-about-us {
+    .bg-breadcrumb-varanasi-ayodhya {
         background-size: cover;
         background-position: center top; /* Ensure image stays centered on mobile */
         padding: 5px 0 5px 0; /* Adjust padding for mobile */
