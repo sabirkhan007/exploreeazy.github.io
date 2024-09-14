@@ -1593,9 +1593,9 @@
 
 
     .bg-breadcrumb-chardham-yatra-ex-delhi{
-     background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/bg-breadcrumb-chardham-yatra-ex-delhi.jpg') no-repeat center center;
+     background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/bg-breadcrumb-chardham-yatra-ex-delhi.png') no-repeat center center;
         background-size: cover;
-        padding: 150px 0 50px 0;
+        padding: 120px 0 200px 0;
         position: relative;
     }
     
