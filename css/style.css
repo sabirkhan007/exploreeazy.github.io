@@ -1497,16 +1497,18 @@
 
 /* Responsive adjustments */
 @media (max-width: 767px) {
-    .bg-breadcrumb {
-        padding: 100px 0 30px 0; /* Adjust padding for smaller screens */
+    .bg-breadcrumb-about-us {
+        background-size: cover;
+        background-position: center top; /* Ensure image stays centered on mobile */
+        padding: 5px 0 5px 0; /* Adjust padding for mobile */
     }
 
     .banner-content h3 {
-        font-size: 2.5rem; /* Adjust font size for mobile */
+        font-size: 2rem; /* Adjust font size for mobile */
     }
-    
+
     .breadcrumb {
-        font-size: 0.9rem; /* Adjust breadcrumb font size for mobile */
+        font-size: 0.85rem; /* Smaller font for mobile */
     }
 }
 
@@ -1543,7 +1545,7 @@
     /* Responsive adjustments */
     @media (max-width: 767px) {
         .bg-breadcrumb {
-            padding: 100px 0 30px 0; /* Adjust padding for smaller screens */
+            padding: 5px 0 5px 0; /* Adjust padding for mobile */
         }
     
         .banner-content h3 {
@@ -1577,7 +1579,7 @@
     /* Responsive adjustments */
     @media (max-width: 767px) {
         .bg-breadcrumb {
-            padding: 100px 0 30px 0; /* Adjust padding for smaller screens */
+            padding: 5px 0 5px 0; /* Adjust padding for mobile */
         }
     
         .banner-content h3 {
@@ -1592,41 +1594,34 @@
     /* endd */
 
 
-    .bg-breadcrumb-chardham-yatra-ex-delhi{
-     background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/bg-breadcrumb-chardham-yatra-ex-delhi.png') no-repeat center center;
+    /* edited new 14-09 */
+
+    .bg-breadcrumb-chardham-yatra-ex-delhi {
+        background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/bg-breadcrumb-chardham-yatra-ex-delhi.png') no-repeat center center;
         background-size: cover;
+        background-position: center top; /* Ensure the focus is on the center */
         padding: 120px 0 200px 0;
         position: relative;
     }
     
-    .banner-content {
-        position: relative;
-        max-width: 100%;
-        margin: 0 auto;
-    }
-    
-    .bg-breadcrumb .breadcrumb-item a {
-        color: var(--bs-secondary) !important;
-    }
-    
     /* Responsive adjustments */
     @media (max-width: 767px) {
-        .bg-breadcrumb {
-            padding: 100px 0 30px 0; /* Adjust padding for smaller screens */
+        .bg-breadcrumb-chardham-yatra-ex-delhi {
+             background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/bg-breadcrumb-chardham-yatra-ex-delhi.png') no-repeat center center;
+            background-size: cover;
+            background-position: center top; /* Ensure the image is centered on mobile */
+            padding: 5px 0 50px 0; /* Adjust padding for mobile */
         }
     
         .banner-content h3 {
-            font-size: 2.5rem; /* Adjust font size for mobile */
+            font-size: 2rem; /* Slightly smaller for mobile */
         }
-        
+    
         .breadcrumb {
-            font-size: 0.9rem; /* Adjust breadcrumb font size for mobile */
+            font-size: 0.85rem; /* Smaller font for breadcrumbs on mobile */
         }
     }
-
-    /* endd */
-
-
+    
 
     .bg-breadcrumb-dodham-yatra-ex-delhi{
       background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/about-us-bannaer.jpg') no-repeat center center;
@@ -1648,7 +1643,7 @@
     /* Responsive adjustments */
     @media (max-width: 767px) {
         .bg-breadcrumb {
-            padding: 100px 0 30px 0; /* Adjust padding for smaller screens */
+            padding: 5px 0 5px 0; /* Adjust padding for mobile */
         }
     
         .banner-content h3 {
@@ -1660,7 +1655,7 @@
         }
     }
 
-    /* endd */
+    /* endd  new 14-09 */
 
 
 
@@ -1684,7 +1679,7 @@
     /* Responsive adjustments */
     @media (max-width: 767px) {
         .bg-breadcrumb {
-            padding: 100px 0 30px 0; /* Adjust padding for smaller screens */
+            padding: 5px 0 5px 0; /* Adjust padding for mobile */
         }
     
         .banner-content h3 {
@@ -1720,7 +1715,7 @@
     /* Responsive adjustments */
     @media (max-width: 767px) {
         .bg-breadcrumb {
-            padding: 100px 0 30px 0; /* Adjust padding for smaller screens */
+            padding: 5px 0 5px 0; /* Adjust padding for mobile */
         }
     
         .banner-content h3 {
@@ -1754,9 +1749,12 @@
     }
     
     /* Responsive adjustments */
-    @media (max-width: 767px) {
+    @media (max-width: 767px) 
+    
+    {
+        
         .bg-breadcrumb {
-            padding: 100px 0 30px 0; /* Adjust padding for smaller screens */
+            padding: 5px 0 5px 0; /* Adjust padding for mobile */
         }
     
         .banner-content h3 {
@@ -1792,7 +1790,7 @@
     /* Responsive adjustments */
     @media (max-width: 767px) {
         .bg-breadcrumb {
-            padding: 100px 0 30px 0; /* Adjust padding for smaller screens */
+            padding: 5px 0 5px 0; /* Adjust padding for mobile */
         }
     
         .banner-content h3 {
@@ -1828,7 +1826,7 @@
     /* Responsive adjustments */
     @media (max-width: 767px) {
         .bg-breadcrumb {
-            padding: 100px 0 30px 0; /* Adjust padding for smaller screens */
+            padding: 5px 0 5px 0; /* Adjust padding for mobile */
         }
     
         .banner-content h3 {
@@ -1863,7 +1861,7 @@
     /* Responsive adjustments */
     @media (max-width: 767px) {
         .bg-breadcrumb {
-            padding: 100px 0 30px 0; /* Adjust padding for smaller screens */
+            padding: 5px 0 5px 0; /* Adjust padding for mobile */
         }
     
         .banner-content h3 {
@@ -1898,7 +1896,7 @@
     /* Responsive adjustments */
     @media (max-width: 767px) {
         .bg-breadcrumb {
-            padding: 100px 0 30px 0; /* Adjust padding for smaller screens */
+            padding: 5px 0 5px 0; /* Adjust padding for mobile */
         }
     
         .banner-content h3 {
@@ -1931,16 +1929,18 @@
 
 /* Responsive adjustments */
 @media (max-width: 767px) {
-    .bg-breadcrumb {
-        padding: 100px 0 30px 0; /* Adjust padding for smaller screens */
+    .bg-breadcrumb-about-us {
+        background-size: cover;
+        background-position: center top; /* Ensure image stays centered on mobile */
+        padding: 5px 0 5px 0; /* Adjust padding for mobile */
     }
 
     .banner-content h3 {
-        font-size: 2.5rem; /* Adjust font size for mobile */
+        font-size: 2rem; /* Adjust font size for mobile */
     }
-    
+
     .breadcrumb {
-        font-size: 0.9rem; /* Adjust breadcrumb font size for mobile */
+        font-size: 0.85rem; /* Smaller font for mobile */
     }
 }
 
@@ -1965,16 +1965,18 @@
 
 /* Responsive adjustments */
 @media (max-width: 767px) {
-    .bg-breadcrumb {
-        padding: 100px 0 30px 0; /* Adjust padding for smaller screens */
+    .bg-breadcrumb-about-us {
+        background-size: cover;
+        background-position: center top; /* Ensure image stays centered on mobile */
+        padding: 5px 0 5px 0; /* Adjust padding for mobile */
     }
 
     .banner-content h3 {
-        font-size: 2.5rem; /* Adjust font size for mobile */
+        font-size: 2rem; /* Adjust font size for mobile */
     }
-    
+
     .breadcrumb {
-        font-size: 0.9rem; /* Adjust breadcrumb font size for mobile */
+        font-size: 0.85rem; /* Smaller font for mobile */
     }
 }
 
@@ -1999,16 +2001,18 @@
 
 /* Responsive adjustments */
 @media (max-width: 767px) {
-    .bg-breadcrumb {
-        padding: 100px 0 30px 0; /* Adjust padding for smaller screens */
+    .bg-breadcrumb-about-us {
+        background-size: cover;
+        background-position: center top; /* Ensure image stays centered on mobile */
+        padding: 5px 0 5px 0; /* Adjust padding for mobile */
     }
 
     .banner-content h3 {
-        font-size: 2.5rem; /* Adjust font size for mobile */
+        font-size: 2rem; /* Adjust font size for mobile */
     }
-    
+
     .breadcrumb {
-        font-size: 0.9rem; /* Adjust breadcrumb font size for mobile */
+        font-size: 0.85rem; /* Smaller font for mobile */
     }
 }
 
@@ -2034,7 +2038,7 @@
     /* Responsive adjustments */
     @media (max-width: 767px) {
         .bg-breadcrumb {
-            padding: 100px 0 30px 0; /* Adjust padding for smaller screens */
+            padding: 5px 0 5px 0; /* Adjust padding for mobile */
         }
     
         .banner-content h3 {
@@ -2068,7 +2072,7 @@
     /* Responsive adjustments */
     @media (max-width: 767px) {
         .bg-breadcrumb {
-            padding: 100px 0 30px 0; /* Adjust padding for smaller screens */
+            padding: 5px 0 5px 0; /* Adjust padding for mobile */
         }
     
         .banner-content h3 {
@@ -2102,7 +2106,7 @@
     /* Responsive adjustments */
     @media (max-width: 767px) {
         .bg-breadcrumb {
-            padding: 100px 0 30px 0; /* Adjust padding for smaller screens */
+            padding: 5px 0 5px 0; /* Adjust padding for mobile */
         }
     
         .banner-content h3 {
@@ -2135,7 +2139,7 @@
     /* Responsive adjustments */
     @media (max-width: 767px) {
         .bg-breadcrumb {
-            padding: 100px 0 30px 0; /* Adjust padding for smaller screens */
+            padding: 5px 0 5px 0; /* Adjust padding for mobile */
         }
     
         .banner-content h3 {
@@ -2169,7 +2173,7 @@
     /* Responsive adjustments */
     @media (max-width: 767px) {
         .bg-breadcrumb {
-            padding: 100px 0 30px 0; /* Adjust padding for smaller screens */
+            padding: 5px 0 5px 0; /* Adjust padding for mobile */
         }
     
         .banner-content h3 {
@@ -2202,23 +2206,29 @@
 
 /* Responsive adjustments */
 @media (max-width: 767px) {
-    .bg-breadcrumb {
-        padding: 100px 0 30px 0; /* Adjust padding for smaller screens */
+    .bg-breadcrumb-about-us {
+        background-size: cover;
+        background-position: center top; /* Ensure image stays centered on mobile */
+        padding: 5px 0 5px 0; /* Adjust padding for mobile */
     }
 
     .banner-content h3 {
-        font-size: 2.5rem; /* Adjust font size for mobile */
+        font-size: 2rem; /* Adjust font size for mobile */
     }
-    
+
     .breadcrumb {
-        font-size: 0.9rem; /* Adjust breadcrumb font size for mobile */
+        font-size: 0.85rem; /* Smaller font for mobile */
     }
 }
 
 /* endd */
-.bg-breadcrumb-about-us{
+
+/* last editing  */
+
+.bg-breadcrumb-about-us {
     background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/about-us-bannaer.jpg') no-repeat center center;
     background-size: cover;
+    background-position: center top; /* Keep the focus centered */
     padding: 150px 0 50px 0;
     position: relative;
 }
@@ -2235,21 +2245,25 @@
 
 /* Responsive adjustments */
 @media (max-width: 767px) {
-    .bg-breadcrumb {
-        padding: 100px 0 30px 0; /* Adjust padding for smaller screens */
+    .bg-breadcrumb-about-us {
+        background-size: cover;
+        background-position: center top; /* Ensure image stays centered on mobile */
+        padding: 5px 0 5px 0; /* Adjust padding for mobile */
     }
 
     .banner-content h3 {
-        font-size: 2.5rem; /* Adjust font size for mobile */
+        font-size: 2rem; /* Adjust font size for mobile */
     }
-    
+
     .breadcrumb {
-        font-size: 0.9rem; /* Adjust breadcrumb font size for mobile */
+        font-size: 0.85rem; /* Smaller font for mobile */
     }
 }
 
-/* endd */
 
+/* last edit end  */
+
+ 
 .bg-breadcrumb-services{
     background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/about-us-bannaer.jpg') no-repeat center center;
     background-size: cover;
@@ -2269,16 +2283,18 @@
 
 /* Responsive adjustments */
 @media (max-width: 767px) {
-    .bg-breadcrumb {
-        padding: 100px 0 30px 0; /* Adjust padding for smaller screens */
+    .bg-breadcrumb-services {
+        background-size: cover;
+        background-position: center top; /* Ensure image stays centered on mobile */
+        padding: 5px 0 5px 0; /* Adjust padding for mobile */
     }
 
     .banner-content h3 {
-        font-size: 2.5rem; /* Adjust font size for mobile */
+        font-size: 2rem; /* Adjust font size for mobile */
     }
-    
+
     .breadcrumb {
-        font-size: 0.9rem; /* Adjust breadcrumb font size for mobile */
+        font-size: 0.85rem; /* Smaller font for mobile */
     }
 }
 
@@ -2303,16 +2319,18 @@
 
 /* Responsive adjustments */
 @media (max-width: 767px) {
-    .bg-breadcrumb {
-        padding: 100px 0 30px 0; /* Adjust padding for smaller screens */
+    .bg-breadcrumb-packages {
+        background-size: cover;
+        background-position: center top; /* Ensure image stays centered on mobile */
+        padding: 5px 0 5px 0; /* Adjust padding for mobile */
     }
 
     .banner-content h3 {
-        font-size: 2.5rem; /* Adjust font size for mobile */
+        font-size: 2rem; /* Adjust font size for mobile */
     }
-    
+
     .breadcrumb {
-        font-size: 0.9rem; /* Adjust breadcrumb font size for mobile */
+        font-size: 0.85rem; /* Smaller font for mobile */
     }
 }
 
@@ -2337,16 +2355,18 @@
 
 /* Responsive adjustments */
 @media (max-width: 767px) {
-    .bg-breadcrumb {
-        padding: 100px 0 30px 0; /* Adjust padding for smaller screens */
+    .bg-breadcrumb-contact-us {
+        background-size: cover;
+        background-position: center top; /* Ensure image stays centered on mobile */
+        padding: 5px 0 5px 0; /* Adjust padding for mobile */
     }
 
     .banner-content h3 {
-        font-size: 2.5rem; /* Adjust font size for mobile */
+        font-size: 2rem; /* Adjust font size for mobile */
     }
-    
+
     .breadcrumb {
-        font-size: 0.9rem; /* Adjust breadcrumb font size for mobile */
+        font-size: 0.85rem; /* Smaller font for mobile */
     }
 }
 
@@ -2374,16 +2394,18 @@
 
 /* Responsive adjustments */
 @media (max-width: 767px) {
-    .bg-breadcrumb {
-        padding: 100px 0 30px 0; /* Adjust padding for smaller screens */
+    .bg-breadcrumb-advant {
+        background-size: cover;
+        background-position: center top; /* Ensure image stays centered on mobile */
+        padding: 5px 0 5px 0; /* Adjust padding for mobile */
     }
 
     .banner-content h3 {
-        font-size: 2.5rem; /* Adjust font size for mobile */
+        font-size: 2rem; /* Adjust font size for mobile */
     }
-    
+
     .breadcrumb {
-        font-size: 0.9rem; /* Adjust breadcrumb font size for mobile */
+        font-size: 0.85rem; /* Smaller font for mobile */
     }
 }
 
@@ -2407,16 +2429,18 @@
 
 /* Responsive adjustments */
 @media (max-width: 767px) {
-    .bg-breadcrumb {
-        padding: 100px 0 30px 0; /* Adjust padding for smaller screens */
+    .bg-breadcrumb-blog {
+        background-size: cover;
+        background-position: center top; /* Ensure image stays centered on mobile */
+        padding: 5px 0 5px 0; /* Adjust padding for mobile */
     }
 
     .banner-content h3 {
-        font-size: 2.5rem; /* Adjust font size for mobile */
+        font-size: 2rem; /* Adjust font size for mobile */
     }
-    
+
     .breadcrumb {
-        font-size: 0.9rem; /* Adjust breadcrumb font size for mobile */
+        font-size: 0.85rem; /* Smaller font for mobile */
     }
 }
 
