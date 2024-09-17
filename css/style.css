@@ -1728,7 +1728,7 @@
 
 
 .bg-breadcrumb-brahmatal-trek {
-    background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/auli-chopta.png') no-repeat center center;
+    background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/brahmatal-trek-banner.png') no-repeat center center;
     background-size: cover;
     background-position: center top; /* Ensure the focus is on the center */
     padding: 120px 0 200px 0;
@@ -2204,7 +2204,7 @@
 .bg-breadcrumb-teen-dham-ex-delhi{
     background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/teen-dham-ex-delhi.png') no-repeat center center;
         background-size: cover;
-        padding: 160px 0 50px 0;
+        padding: 300px 0 50px 0;
         position: relative;
     }
     
@@ -2237,7 +2237,7 @@
 .bg-breadcrumb-teen-dham-ex-haridwar{
     background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/teen-dham-ex-haridwar.png') no-repeat center center;
         background-size: cover;
-        padding: 160px 0 50px 0;
+        padding: 300px 0 50px 0;
         position: relative;
     }
     
