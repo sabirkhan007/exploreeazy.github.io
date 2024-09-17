@@ -1475,13 +1475,22 @@
     background-attachment: fixed;
     padding: 150px 0 50px 0;
 }
+.bg-breadcrumb-jim-corbett-ex-haridwar {
+    background: linear-gradient(rgba(19, 53, 123, 0.5), rgba(19, 53, 123, 0.5)), url(../img/jim-corbett-ex-haridwar.png);
+
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 300px 0 50px 0;
+}
 
 
 /* starttt */
-.bg-breadcrumb {
-    background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/breadcrumb-bg.jpg') no-repeat center center;
+.bg-breadcrumb-jim-corbett-ex-haridwar {
+    background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/jim-corbett-ex-haridwar.png') no-repeat center center;
     background-size: cover;
-    padding: 150px 0 50px 0;
+    padding: 300px 0 50px 0;
     position: relative;
 }
 
@@ -1516,17 +1525,17 @@
 
     
     .bg-breadcrumb-auli-chopta-ex-haridwar {
-        background: linear-gradient(rgba(19, 53, 123, 0.5), rgba(19, 53, 123, 0.5)), url(../img/chopta-1.jpg);
+        background: linear-gradient(rgba(19, 53, 123, 0.5), rgba(19, 53, 123, 0.5)), url(../img/auli-chopta-ex-haridwar.png);
     
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
-        background-attachment: fixed;
-        padding: 150px 0 50px 0;
+       
+        padding: 300px 0 50px 0;
     }
 
     .bg-breadcrumb-badrinath-ex-haridwar {
-        background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/badrinath-banner.PNG') no-repeat center center;
+        background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/auli-chopta-ex-haridwar.png') no-repeat center center;
         background-size: cover;
         padding: 300px 0 50px 0;
         position: relative;
@@ -1604,6 +1613,29 @@
         position: relative;
     }
     
+    .bg-breadcrumb-goumukh-yatra {
+        background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/goumukh-yatra.png') no-repeat center center;
+        background-size: cover;
+        background-position: center top; /* Ensure the focus is on the center */
+        padding: 120px 0 200px 0;
+        position: relative;
+    }
+    
+    .bg-breadcrumb-do-dham-by-helicopter-3n-4d {
+        background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/do-dham-by-helicopter-3n-4d.png') no-repeat center center;
+        background-size: cover;
+        background-position: center top; /* Ensure the focus is on the center */
+        padding: 120px 0 200px 0;
+        position: relative;
+    }
+
+    .bg-breadcrumb-chardham-yatra-by-helicopter {
+        background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/chardham-yatra-by-helicopter.jpg') no-repeat center center;
+        background-size: cover;
+        background-position: center top; /* Ensure the focus is on the center */
+        padding: 120px 0 200px 0;
+        position: relative;
+    }
     /* Responsive adjustments */
     @media (max-width: 767px) {
         .bg-breadcrumb-chardham-yatra-ex-delhi {
@@ -1624,7 +1656,7 @@
     
 
     .bg-breadcrumb-dodham-yatra-ex-delhi{
-      background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/do-dham-yatra.PNG') no-repeat center center;
+      background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/do-dham-yatra-by-helicopter.PNG') no-repeat center center;
         background-size: cover;
         padding: 300px 0 50px 0;
         position: relative;
@@ -1660,8 +1692,10 @@
 /* auli chopta  */
 
  
+/* 17-09-24 start */
 
- .bg-breadcrumb-auli-chopta {
+
+.bg-breadcrumb-auli-chopta {
     background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/auli-chopta.png') no-repeat center center;
     background-size: cover;
     background-position: center top; /* Ensure the focus is on the center */
@@ -1686,6 +1720,41 @@
         font-size: 0.85rem; /* Smaller font for breadcrumbs on mobile */
     }
 }
+
+/* 17-09-24 end */
+
+ 
+/* 17-09-24 start */
+
+
+.bg-breadcrumb-brahmatal-trek {
+    background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/auli-chopta.png') no-repeat center center;
+    background-size: cover;
+    background-position: center top; /* Ensure the focus is on the center */
+    padding: 120px 0 200px 0;
+    position: relative;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+    .bg-breadcrumb-brahmatal-trek {
+         background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/auli-chopta.png') no-repeat center center;
+        background-size: cover;
+        background-position: center top; /* Ensure the image is centered on mobile */
+        padding: 5px 0 50px 0; /* Adjust padding for mobile */
+    }
+
+    .banner-content h3 {
+        font-size: 2rem; /* Slightly smaller for mobile */
+    }
+
+    .breadcrumb {
+        font-size: 0.85rem; /* Smaller font for breadcrumbs on mobile */
+    }
+}
+
+/* 17-09-24 end */
+
 
  
 /* Responsive adjustments */
@@ -1742,9 +1811,9 @@
 
 
     .bg-breadcrumb-golden-triangle{
-     background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/about-us-bannaer.jpg') no-repeat center center;
+     background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/golden-triangle.png') no-repeat center center;
         background-size: cover;
-        padding: 150px 0 50px 0;
+        padding: 165px 0 50px 0;
         position: relative;
     }
     
@@ -1778,7 +1847,7 @@
 
 
 .bg-breadcrumb-haridwar-rishikesh-mussoorie{
-    background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/about-us-bannaer.jpg') no-repeat center center;
+    background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/haridwar-rishikesh-mussoorie.png') no-repeat center center;
         background-size: cover;
         padding: 150px 0 50px 0;
         position: relative;
@@ -1817,9 +1886,9 @@
 
 
 .bg-breadcrumb-hemkund-sahib{
-   background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/about-us-bannaer.jpg') no-repeat center center;
+   background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/hemkund-sahib.png') no-repeat center center;
         background-size: cover;
-        padding: 150px 0 50px 0;
+        padding: 160px 0 50px 0;
         position: relative;
     }
     
@@ -1853,9 +1922,9 @@
 
 
 .bg-breadcrumb-kedar-badri-ex-haridwar{
-    background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/about-us-bannaer.jpg') no-repeat center center;
+    background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/kedar-badri-yatra.png') no-repeat center center;
         background-size: cover;
-        padding: 150px 0 50px 0;
+        padding: 160px 0 50px 0;
         position: relative;
     }
     
@@ -1888,9 +1957,9 @@
 
 
 .bg-breadcrumb-kedarkantha-ex-dehradun{
-     background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/about-us-bannaer.jpg') no-repeat center center;
+     background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/kedarkantha-ex-dehradun.png') no-repeat center center;
         background-size: cover;
-        padding: 150px 0 50px 0;
+        padding: 300px 0 50px 0;
         position: relative;
     }
     
@@ -1923,9 +1992,9 @@
 
 
 .bg-breadcrumb-kedarkantha-ex-sankri{
-   background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/about-us-bannaer.jpg') no-repeat center center;
+   background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/kedarkantha-ex-sankri.png') no-repeat center center;
         background-size: cover;
-        padding: 150px 0 50px 0;
+        padding: 160px 0 50px 0;
         position: relative;
     }
     
@@ -1957,9 +2026,9 @@
     /* endd */
 
 .bg-breadcrumb-kedarnath-ex-haridwar{
-    background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/about-us-bannaer.jpg') no-repeat center center;
+    background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/kedarkantha-ex-haridwar.png') no-repeat center center;
     background-size: cover;
-    padding: 150px 0 50px 0;
+    padding: 300px 0 50px 0;
     position: relative;
 }
 
@@ -1993,9 +2062,9 @@
 /* endd */
 
 .bg-breadcrumb-mathura-vrindavan{
-    background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/about-us-bannaer.jpg') no-repeat center center;
+    background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/mathura-vrindavan.png') no-repeat center center;
     background-size: cover;
-    padding: 150px 0 50px 0;
+    padding: 300px 0 50px 0;
     position: relative;
 }
 
@@ -2029,7 +2098,7 @@
 /* endd */
 
 .bg-breadcrumb-mussoorie-dhanaulti-chakrata{
-    background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/about-us-bannaer.jpg') no-repeat center center;
+    background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/mussoorie-dhanaulti-chakrata.png') no-repeat center center;
     background-size: cover;
     padding: 150px 0 50px 0;
     position: relative;
@@ -2065,9 +2134,9 @@
 /* endd */
 
 .bg-breadcrumb-mussoorie-ex-haridwar{
-    background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/about-us-bannaer.jpg') no-repeat center center;
+    background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/mussoorie.png') no-repeat center center;
         background-size: cover;
-        padding: 150px 0 50px 0;
+        padding: 160px 0 50px 0;
         position: relative;
     }
     
@@ -2099,9 +2168,9 @@
     /* endd */
 
 .bg-breadcrumb-nainital-jimcorbett-ex-rishikesh{
-    background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/about-us-bannaer.jpg') no-repeat center center;
+    background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/nainital-jimcorbett-ex-rishikesh.png') no-repeat center center;
         background-size: cover;
-        padding: 150px 0 50px 0;
+        padding: 160px 0 50px 0;
         position: relative;
     }
     
@@ -2133,9 +2202,9 @@
     /* endd */
 
 .bg-breadcrumb-teen-dham-ex-delhi{
-    background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/about-us-bannaer.jpg') no-repeat center center;
+    background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/teen-dham-ex-delhi.png') no-repeat center center;
         background-size: cover;
-        padding: 150px 0 50px 0;
+        padding: 160px 0 50px 0;
         position: relative;
     }
     
@@ -2166,9 +2235,9 @@
 
     /* endd */
 .bg-breadcrumb-teen-dham-ex-haridwar{
-    background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/about-us-bannaer.jpg') no-repeat center center;
+    background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/teen-dham-ex-haridwar.png') no-repeat center center;
         background-size: cover;
-        padding: 150px 0 50px 0;
+        padding: 160px 0 50px 0;
         position: relative;
     }
     
@@ -2200,9 +2269,9 @@
     /* endd */
 
 .bg-breadcrumb-valley-of-flowers{
-    background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/about-us-bannaer.jpg') no-repeat center center;
+    background: linear-gradient(rgba(80, 141, 78, 0.089), rgba(132, 190, 130, 0.24)), url('../img/valley-of-flowers.png') no-repeat center center;
         background-size: cover;
-        padding: 150px 0 50px 0;
+        padding: 160px 0 50px 0;
         position: relative;
     }
     
